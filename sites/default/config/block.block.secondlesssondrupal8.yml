@@ -1,0 +1,31 @@
+uuid: e1bc85ab-cf98-4528-a1f7-9a5176ed3c24
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_with_pdf:0cdf817a-c8c7-49be-9bba-1977136c86be'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: secondlesssondrupal8
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:0cdf817a-c8c7-49be-9bba-1977136c86be'
+settings:
+  id: 'block_content:0cdf817a-c8c7-49be-9bba-1977136c86be'
+  label: 'Second lessson Drupal 8'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '/*'
+    negate: false
+    context_mapping: {  }

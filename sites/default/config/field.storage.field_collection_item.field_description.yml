@@ -1,0 +1,21 @@
+uuid: 50a64f2c-cff2-4785-8d8b-47e98b82ef76
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - options
+id: field_collection_item.field_description
+field_name: field_description
+entity_type: field_collection_item
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

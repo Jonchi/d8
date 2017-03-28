@@ -1,0 +1,7 @@
+uuid: 631edd4d-21bc-4a5c-83e1-ff1a4391a1ae
+langcode: en
+status: true
+dependencies: {  }
+formId: shortcut_set_switch
+captchaType: captcha/Math
+label: shortcut_set_switch

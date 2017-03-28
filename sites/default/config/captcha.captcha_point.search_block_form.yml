@@ -1,0 +1,7 @@
+uuid: de7a5946-a82c-4548-8901-06002edef491
+langcode: en
+status: true
+dependencies: {  }
+formId: search_block_form
+captchaType: captcha/Math
+label: search_block_form

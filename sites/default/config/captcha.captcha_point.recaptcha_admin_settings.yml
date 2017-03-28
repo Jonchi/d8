@@ -1,0 +1,7 @@
+uuid: 8182d87d-4b44-43df-8ff5-df8bf3309caa
+langcode: en
+status: true
+dependencies: {  }
+formId: recaptcha_admin_settings
+captchaType: captcha/Math
+label: recaptcha_admin_settings

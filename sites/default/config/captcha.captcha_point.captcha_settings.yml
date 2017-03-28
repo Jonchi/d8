@@ -1,0 +1,7 @@
+uuid: 633a148c-a538-4c15-ba3a-467c19b2d6e0
+langcode: en
+status: true
+dependencies: {  }
+formId: captcha_settings
+captchaType: image_captcha/Image
+label: captcha_settings

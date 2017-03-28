@@ -1,0 +1,24 @@
+uuid: b5aef549-edd4-4e14-a9e3-51851da49505
+langcode: en
+status: true
+dependencies: {  }
+id: moderator
+label: Moderator
+weight: 4
+is_admin: null
+permissions:
+  - 'administer views'
+  - 'administer blocks'
+  - 'create article content'
+  - 'delete any article content'
+  - 'delete own article content'
+  - 'delete article revisions'
+  - 'edit any article content'
+  - 'create page content'
+  - 'delete own page content'
+  - 'edit own page content'
+  - 'edit own blog content'
+  - 'create movies content'
+  - 'delete news revisions'
+  - 'edit any news content'
+  - 'search content'

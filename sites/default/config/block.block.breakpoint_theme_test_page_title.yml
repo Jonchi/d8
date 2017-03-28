@@ -1,0 +1,20 @@
+uuid: 1da1e0f0-65ac-407f-975e-81f295655526
+langcode: en
+status: true
+dependencies:
+  theme:
+    - breakpoint_theme_test
+_core:
+  default_config_hash: ZSpc3IoSaLd0PkB02nxjVPBMztIdsTdHek9SiGaqZ_c
+id: breakpoint_theme_test_page_title
+theme: breakpoint_theme_test
+region: header
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

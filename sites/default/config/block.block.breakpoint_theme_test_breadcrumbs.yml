@@ -1,0 +1,22 @@
+uuid: 991c6e19-67df-4b07-b8c4-e5d753cc1b2c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - breakpoint_theme_test
+_core:
+  default_config_hash: WWu2OQswgCztl9OeXjD1stexIEMZsSgPMYIdC-JHx9c
+id: breakpoint_theme_test_breadcrumbs
+theme: breakpoint_theme_test
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

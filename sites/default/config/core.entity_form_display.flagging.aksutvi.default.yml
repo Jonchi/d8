@@ -1,0 +1,30 @@
+uuid: 98ac1cbe-f6d1-4d21-88c0-dbbfc4bd2802
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.flagging.aksutvi.field_friends
+    - field.field.flagging.aksutvi.field_user
+    - flag.flag.aksutvi
+id: flagging.aksutvi.default
+targetEntityType: flagging
+bundle: aksutvi
+mode: default
+content:
+  field_friends:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_user:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+hidden: {  }

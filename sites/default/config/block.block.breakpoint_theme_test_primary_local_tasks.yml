@@ -1,0 +1,22 @@
+uuid: 7b866278-0594-45bf-8e25-5587c7a60b2e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - breakpoint_theme_test
+_core:
+  default_config_hash: ddy1OsBbWxjwEI8VL1viD4I69qcLHOkul4BxbTqLBTs
+id: breakpoint_theme_test_primary_local_tasks
+theme: breakpoint_theme_test
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

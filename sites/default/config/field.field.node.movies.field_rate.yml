@@ -1,0 +1,21 @@
+uuid: fc1e62a9-e874-4562-9e5d-4724802eda92
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rate
+    - node.type.movies
+  module:
+    - options
+id: node.movies.field_rate
+field_name: field_rate
+entity_type: node
+bundle: movies
+label: Rate
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float

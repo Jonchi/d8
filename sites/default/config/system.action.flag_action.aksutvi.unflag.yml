@@ -1,0 +1,13 @@
+uuid: c066f540-d44b-47b4-b0d5-59b11326c19f
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.aksutvi.unflag
+label: 'Unflag this item'
+type: user
+plugin: 'flag_action:aksutvi.unflag'
+configuration:
+  flag_id: aksutvi
+  flag_action: unflag

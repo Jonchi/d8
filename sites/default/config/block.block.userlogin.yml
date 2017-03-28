@@ -1,0 +1,20 @@
+uuid: b7886d8a-409d-4620-854f-6014a4681c37
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - breakpoint_theme_test
+id: userlogin
+theme: breakpoint_theme_test
+region: header
+weight: -2
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

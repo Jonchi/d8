@@ -1,0 +1,9 @@
+uuid: c14a2cd7-73da-44fc-8f4d-f13c6db26773
+langcode: en
+status: true
+dependencies: {  }
+name: 'Job Roles'
+vid: job_roles
+description: ''
+hierarchy: 0
+weight: 0

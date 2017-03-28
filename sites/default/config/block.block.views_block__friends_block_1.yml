@@ -1,0 +1,30 @@
+uuid: 548a34e8-01bc-48fc-bc14-48d1e53e9f9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.friends
+  module:
+    - system
+    - views
+  theme:
+    - breakpoint_theme_test
+id: views_block__friends_block_1
+theme: breakpoint_theme_test
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:friends-block_1'
+settings:
+  id: 'views_block:friends-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: 94cf79b9-5865-46c1-9349-3828582786e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_y
+    - node.type.movies
+  module:
+    - datetime
+id: node.movies.field_y
+field_name: field_y
+entity_type: node
+bundle: movies
+label: Year
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,20 @@
+uuid: 69fef842-9091-4d63-a560-24df8a0b8e32
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+    - user
+id: flagging.field_user
+field_name: field_user
+entity_type: flagging
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

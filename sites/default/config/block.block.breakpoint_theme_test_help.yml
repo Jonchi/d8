@@ -1,0 +1,22 @@
+uuid: de286e72-491c-42d0-b5bd-7bf3ebb4ee6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - breakpoint_theme_test
+_core:
+  default_config_hash: NU5A_49mwLHfs5xFzMFrZ850w9pgUolxMS9NNF3vv4c
+id: breakpoint_theme_test_help
+theme: breakpoint_theme_test
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

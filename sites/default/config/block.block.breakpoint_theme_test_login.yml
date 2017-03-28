@@ -1,0 +1,22 @@
+uuid: 8e52278a-d5fa-483d-b8ab-e30f39bbe24f
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - breakpoint_theme_test
+_core:
+  default_config_hash: IItlF4SKHgxduIysVQdvirDJ_v3HGuAviOkidAOJYRE
+id: breakpoint_theme_test_login
+theme: breakpoint_theme_test
+region: content
+weight: -6
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

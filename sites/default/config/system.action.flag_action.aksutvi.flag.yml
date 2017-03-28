@@ -1,0 +1,13 @@
+uuid: 4bf2ff35-154a-4fd0-a5bc-c71b7bfa4ced
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.aksutvi.flag
+label: 'Flag this item'
+type: user
+plugin: 'flag_action:aksutvi.flag'
+configuration:
+  flag_id: aksutvi
+  flag_action: flag

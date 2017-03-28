@@ -1,0 +1,28 @@
+uuid: 0f18e7f1-ddd9-47c6-ac0a-6f089ffd74e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.flagging.aksutvi.field_friends
+    - field.field.flagging.aksutvi.field_user
+    - flag.flag.aksutvi
+id: flagging.aksutvi.default
+targetEntityType: flagging
+bundle: aksutvi
+mode: default
+content:
+  field_friends:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_user:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+hidden: {  }

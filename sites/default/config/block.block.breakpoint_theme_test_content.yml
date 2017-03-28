@@ -1,0 +1,22 @@
+uuid: e93fcb4f-c810-4862-9957-d4c5f6f100fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - breakpoint_theme_test
+_core:
+  default_config_hash: YRY68JWkaUiGeZlWMv1nzeIgDm0ZZwXYgpqUpLFzwAY
+id: breakpoint_theme_test_content
+theme: breakpoint_theme_test
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

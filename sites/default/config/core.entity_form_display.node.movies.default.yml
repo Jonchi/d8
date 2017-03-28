@@ -1,0 +1,96 @@
+uuid: 0f36c573-e04b-4198-82c9-aada991a0009
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.movies.body
+    - field.field.node.movies.field_g
+    - field.field.node.movies.field_image
+    - field.field.node.movies.field_rate
+    - field.field.node.movies.field_y
+    - image.style.thumbnail
+    - node.type.movies
+  module:
+    - datetime
+    - image
+    - path
+    - text
+id: node.movies.default
+targetEntityType: node
+bundle: movies
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 31
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_g:
+    weight: 35
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_image:
+    type: image_image
+    weight: 32
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_rate:
+    weight: 34
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_y:
+    weight: 33
+    settings:
+      date_order: YMD
+      time_type: none
+      increment: 15
+    third_party_settings: {  }
+    type: datetime_datelist
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

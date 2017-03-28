@@ -1,0 +1,20 @@
+uuid: c1420cec-6085-4064-960b-f233cb1ede05
+langcode: en
+status: true
+dependencies:
+  theme:
+    - breakpoint_theme_test
+_core:
+  default_config_hash: HHryZVJbeKi9WnuBGC8FOhBZmBnk2G1H6KxFuy-rC9A
+id: breakpoint_theme_test_local_actions
+theme: breakpoint_theme_test
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

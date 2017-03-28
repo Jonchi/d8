@@ -1,0 +1,28 @@
+uuid: ea10931c-18ac-4d31-b771-bae694cae060
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - search
+  theme:
+    - breakpoint_theme_test
+id: searchform_2
+theme: breakpoint_theme_test
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      movies: movies
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

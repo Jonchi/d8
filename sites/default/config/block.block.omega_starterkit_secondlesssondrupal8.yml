@@ -1,0 +1,31 @@
+uuid: 6750c193-cfa3-422f-ac6b-b3b4e87c998d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_with_pdf:0cdf817a-c8c7-49be-9bba-1977136c86be'
+  module:
+    - block_content
+    - system
+  theme:
+    - omega_starterkit
+id: omega_starterkit_secondlesssondrupal8
+theme: omega_starterkit
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:0cdf817a-c8c7-49be-9bba-1977136c86be'
+settings:
+  id: 'block_content:0cdf817a-c8c7-49be-9bba-1977136c86be'
+  label: 'Second lessson Drupal 8'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /user/1
+    negate: false
+    context_mapping: {  }

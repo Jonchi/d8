@@ -1,0 +1,22 @@
+uuid: d64d2998-2a8d-4211-9f44-ec838f77ff08
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - d_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: d_theme_help
+theme: d_theme
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

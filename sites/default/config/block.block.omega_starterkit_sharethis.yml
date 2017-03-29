@@ -1,0 +1,37 @@
+uuid: 7813bc36-538e-49e5-b69e-e7b7612ed267
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - sharethis
+    - system
+  theme:
+    - omega_starterkit
+id: omega_starterkit_sharethis
+theme: omega_starterkit
+region: header
+weight: 0
+provider: null
+plugin: sharethis_block
+settings:
+  id: sharethis_block
+  label: Sharethis
+  provider: sharethis
+  label_display: visible
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      blog: blog
+      gallery: gallery
+      news: news
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '/*'
+    negate: false
+    context_mapping: {  }

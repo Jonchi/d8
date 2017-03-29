@@ -1,0 +1,31 @@
+uuid: f4d72f70-db3e-4de7-ac5b-2658437efedc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6e23f30a-e128-460a-ae37-2f8da89a4ef9'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik2017
+id: bartik2017_googlemaps
+theme: bartik2017
+region: footer_fifth
+weight: -7
+provider: null
+plugin: 'block_content:6e23f30a-e128-460a-ae37-2f8da89a4ef9'
+settings:
+  id: 'block_content:6e23f30a-e128-460a-ae37-2f8da89a4ef9'
+  label: 'Google Maps'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

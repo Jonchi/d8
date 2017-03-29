@@ -1,0 +1,31 @@
+uuid: 12391433-5254-4b55-9eae-ab0e7f634760
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:86fd5081-b4ad-4ffd-bbcf-cb82173a48e3'
+  module:
+    - block_content
+    - system
+  theme:
+    - omega_starterkit
+id: omega_starterkit_firstblock
+theme: omega_starterkit
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:86fd5081-b4ad-4ffd-bbcf-cb82173a48e3'
+settings:
+  id: 'block_content:86fd5081-b4ad-4ffd-bbcf-cb82173a48e3'
+  label: 'First block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /user/1
+    negate: false
+    context_mapping: {  }

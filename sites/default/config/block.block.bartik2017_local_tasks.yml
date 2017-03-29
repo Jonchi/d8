@@ -1,0 +1,22 @@
+uuid: f707dd08-3ca7-4af4-a4e9-a827d52710a5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bartik2017
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: bartik2017_local_tasks
+theme: bartik2017
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

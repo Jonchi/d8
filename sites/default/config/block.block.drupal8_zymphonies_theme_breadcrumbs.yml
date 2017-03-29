@@ -1,0 +1,22 @@
+uuid: d05e69ae-c20a-47c3-abcd-5e3eb1de5a25
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal8_zymphonies_theme
+_core:
+  default_config_hash: Ge3b4MEySV2QvgdUJ31QrS8HgCK9PCxSYCLVt2mUVoU
+id: drupal8_zymphonies_theme_breadcrumbs
+theme: drupal8_zymphonies_theme
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

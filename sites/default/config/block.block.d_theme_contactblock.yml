@@ -1,0 +1,29 @@
+uuid: 5fd75fcd-68a5-4af4-88ed-37a4dbce32e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+  module:
+    - contact_block
+    - system
+  theme:
+    - d_theme
+id: d_theme_contactblock
+theme: d_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: visible
+  contact_form: feedback
+visibility:
+  request_path:
+    id: request_path
+    pages: '/*'
+    negate: false
+    context_mapping: {  }

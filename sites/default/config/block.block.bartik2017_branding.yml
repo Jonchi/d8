@@ -1,0 +1,25 @@
+uuid: cef9e2d8-a302-4e80-8c3f-3eac7039876a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik2017
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: bartik2017_branding
+theme: bartik2017
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

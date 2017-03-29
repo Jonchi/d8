@@ -1,0 +1,22 @@
+uuid: 1849e8f7-0a15-4711-bc0c-c7080ad14efc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - firsttheme
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: firsttheme_powered
+theme: firsttheme
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

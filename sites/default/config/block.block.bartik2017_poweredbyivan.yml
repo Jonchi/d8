@@ -1,0 +1,31 @@
+uuid: 7396173a-7424-4161-b0b4-504d838de8c5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a1c17ada-8e8f-4e1a-b374-d9baa84fcc09'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik2017
+id: bartik2017_poweredbyivan
+theme: bartik2017
+region: footer_fifth
+weight: -8
+provider: null
+plugin: 'block_content:a1c17ada-8e8f-4e1a-b374-d9baa84fcc09'
+settings:
+  id: 'block_content:a1c17ada-8e8f-4e1a-b374-d9baa84fcc09'
+  label: 'Powered by Ivan'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '/*'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,25 @@
+uuid: d38faebf-1c2b-4391-8af6-0cc6a3d091fd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image:fd4fd8d3-f7f7-4a53-9376-0f022710578b'
+  module:
+    - block_content
+  theme:
+    - d_theme
+id: d_theme_image
+theme: d_theme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:fd4fd8d3-f7f7-4a53-9376-0f022710578b'
+settings:
+  id: 'block_content:fd4fd8d3-f7f7-4a53-9376-0f022710578b'
+  label: Image
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

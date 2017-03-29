@@ -1,0 +1,31 @@
+uuid: 2a3d1e34-232f-4249-ab88-340a4a03044f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:86fd5081-b4ad-4ffd-bbcf-cb82173a48e3'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik2017
+id: bartik2017_firstblock
+theme: bartik2017
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:86fd5081-b4ad-4ffd-bbcf-cb82173a48e3'
+settings:
+  id: 'block_content:86fd5081-b4ad-4ffd-bbcf-cb82173a48e3'
+  label: 'First block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /user/1
+    negate: false
+    context_mapping: {  }

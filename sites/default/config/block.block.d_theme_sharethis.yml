@@ -1,0 +1,37 @@
+uuid: 165abc60-4a52-4c99-9e52-ef1f4bfcfc57
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - sharethis
+    - system
+  theme:
+    - d_theme
+id: d_theme_sharethis
+theme: d_theme
+region: header
+weight: 0
+provider: null
+plugin: sharethis_block
+settings:
+  id: sharethis_block
+  label: Sharethis
+  provider: sharethis
+  label_display: visible
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      blog: blog
+      gallery: gallery
+      news: news
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '/*'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,26 @@
+uuid: 3f5d4910-495a-4c39-8938-97d07322e229
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - bartik2017
+id: bartik2017_searchform
+theme: bartik2017
+region: footer_first
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: 6f48a5e3-a18d-4414-ad8a-565e49773db6
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - d_t
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: d_t_help
+theme: d_t
+region: header
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

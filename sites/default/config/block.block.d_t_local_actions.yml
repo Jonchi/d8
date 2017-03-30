@@ -1,0 +1,20 @@
+uuid: fd3364b8-a9e3-4c20-9918-c9330fb2c091
+langcode: en
+status: true
+dependencies:
+  theme:
+    - d_t
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: d_t_local_actions
+theme: d_t
+region: header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
